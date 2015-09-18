@@ -9,18 +9,18 @@
 7. AppDelegate.swiftを開きます。
 8. - func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool { ... } メソッド内に以下のコードを書きます。
 
+***
 # コード #
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 // Override point for customization after application launch.
-
-/* ここから */
-let storyboard: UIStoryboard = ScreenAdjuster.adjust()
-window!.rootViewController = storyboard.instantiateInitialViewController()! as UIViewController
-self.window?.makeKeyAndVisible()
-/* ここまで */
-
-return true
-}
+    /* ここから */
+    let storyboard: UIStoryboard = ScreenAdjuster.adjust()
+    window!.rootViewController = storyboard.instantiateInitialViewController()! as UIViewController
+    self.window?.makeKeyAndVisible()
+    /* ここまで */
+    return true
+    }
+***
 
 9. NewFileから「3.5inch.storyboard」という名前で新しいStoryboardファイルを作成します。
 10. Main.storyboardからViewController群をコピーし、3.5inch.storyboardに貼り付けます。
