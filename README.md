@@ -14,7 +14,7 @@
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 // Override point for customization after application launch.
     /* ここから */
-    let storyboard: UIStoryboard = ScreenAdjuster.adjust()
+    let storyboard: UIStoryboard = StoryboardHelper.adjust()
     window!.rootViewController = storyboard.instantiateInitialViewController()! as UIViewController
     self.window?.makeKeyAndVisible()
     /* ここまで */
