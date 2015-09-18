@@ -1,5 +1,4 @@
-#StoryboardHelperの使い方
-
+# StoryboardHelperの使い方
 1. Xcodeを起動し、プロジェクトファイルを作成します。
 2. Main.storyboardのUse Size Classesのチェックを外し、4inchのサイズにします。
 3. プロジェクトファイルから、LaunchScreen.xibを削除します。
@@ -9,8 +8,9 @@
 7. AppDelegate.swiftを開きます。
 8. - func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool { ... } メソッド内に以下のコードを書きます。
 
-***
-# コード #
+### コード
+
+```
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 // Override point for customization after application launch.
     /* ここから */
@@ -20,7 +20,7 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
     /* ここまで */
     return true
     }
-***
+```
 
 9. NewFileから「3.5inch.storyboard」という名前で新しいStoryboardファイルを作成します。
 10. Main.storyboardからViewController群をコピーし、3.5inch.storyboardに貼り付けます。
