@@ -1,3 +1,6 @@
+# StoryboardHeperとは
+StoryboardHelperは、iOSアプリ開発初心者が各端末への画面サイズの対応を直感的に行い、なるべく簡単にアプリをリリースするためのヘルパーです。AutoLayout、SizeClassなどを一切使わずに各端末への画面サイズに対応できます。ViewControllerの数が少ないアプリでの使用を想定していますののでらあらかじめご理解下さい。
+
 # StoryboardHelperの使い方
 1. Xcodeを起動し、プロジェクトファイルを作成します。
 2. Main.storyboardのUse Size Classesのチェックを外し、4inchのサイズにします。
