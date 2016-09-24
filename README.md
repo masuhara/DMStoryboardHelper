@@ -1,7 +1,7 @@
 # StoryboardHeperとは
 StoryboardHelperは、iOSアプリ開発初心者が各端末への画面サイズの対応を直感的に行い、なるべく簡単にアプリをリリースするためのヘルパーです。AutoLayout、SizeClassなどを一切使わずに各端末への画面サイズに対応できます。ViewControllerの数が少ないアプリでの使用を想定していますののでらあらかじめご理解下さい。
 
-# StoryboardHelperの使い方
+## StoryboardHelperの使い方
 1. Xcodeを起動し、プロジェクトファイルを作成します。
 2. Main.storyboardのUse Size Classesのチェックを外し、4inchのサイズにします。
 3. プロジェクトファイルから、LaunchScreen.xibを削除します。
@@ -10,9 +10,6 @@ StoryboardHelperは、iOSアプリ開発初心者が各端末への画面サイ�
 6. この時点でiPhone5/5S/6/6Plus/6s/6sPlusへの対応は完了です。
 7. AppDelegate.swiftを開きます。
 8. - func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool { ... } メソッド内に以下のプログラムを書きます。
-
-## プログラム
-
 ```swift
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 // Override point for customization after application launch.
@@ -24,7 +21,6 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
     return true
 }
 ```
-
 9. NewFileから「3.5inch.storyboard」という名前で新しいStoryboardファイルを作成します。
 10. Main.storyboardからViewController群をコピーし、3.5inch.storyboardに貼り付けます。
 11. 3.5inchの方のinitialViewControllerのチェックが外れているので、チェックを入れます。
