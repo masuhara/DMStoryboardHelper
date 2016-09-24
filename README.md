@@ -10,7 +10,7 @@
 
 ### コード
 
-```
+```swift
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 // Override point for customization after application launch.
     /* ここから */
@@ -19,7 +19,7 @@ func application(application: UIApplication, didFinishLaunchingWithOptions launc
     self.window?.makeKeyAndVisible()
     /* ここまで */
     return true
-    }
+}
 ```
 
 9. NewFileから「3.5inch.storyboard」という名前で新しいStoryboardファイルを作成します。
