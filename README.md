@@ -6,9 +6,9 @@
 5. そのとき、Destinationにチェックが入っていること、Refereneの選択が上の方を選んでいること、Targetにチェックが入っていることに気をつけましょう。
 6. この時点でiPhone5/5S/6/6Plus/6s/6sPlusへの対応は完了です。
 7. AppDelegate.swiftを開きます。
-8. - func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool { ... } メソッド内に以下のコードを書きます。
+8. - func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool { ... } メソッド内に以下のプログラムを書きます。
 
-### コード
+## プログラム
 
 ```swift
 func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
