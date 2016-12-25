@@ -4,7 +4,7 @@ StoryboardHelperは、iOSアプリ開発初心者が各端末への画面サイ�
 ## StoryboardHelperの使い方
 1. Xcodeを起動し、プロジェクトファイルを作成します。
 2. `Main.storyboard`のUse Size Classesのチェックを外し、4inchのサイズにします。
-3. プロジェクトファイルから、L`aunchScreen.xib`を削除します。
+3. プロジェクトファイルから、`LaunchScreen.xib`を削除します。
 4. StoryboardHelperをXcodeの左側のペインにドラッグ&ドロップでコピーします。
 5. そのとき、Destinationにチェックが入っていること、Refereneの選択が上の方を選んでいること、Targetにチェックが入っていることに気をつけましょう。
 6. この時点でiPhone5/5S/6/6Plus/6s/6sPlusへの対応は完了です。
