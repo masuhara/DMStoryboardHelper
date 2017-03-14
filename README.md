@@ -9,7 +9,7 @@ StoryboardHelperは、iOSアプリ開発初心者が各端末への画面サイ�
 5. そのとき、Destinationにチェックが入っていること、Refereneの選択が上の方を選んでいること、Targetにチェックが入っていることに気をつけましょう。
 6. この時点でiPhone5/5S/6/6Plus/6s/6sPlusへの対応は完了です。
 7. `AppDelegate.swift`を開きます。
-8. - `application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool { ... }` メソッド内に以下のプログラムを書きます。
+8. `application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool { ... }` メソッド内に以下のプログラムを書きます。
 ```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 // Override point for customization after application launch.
