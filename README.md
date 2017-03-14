@@ -9,7 +9,9 @@ StoryboardHelperは、iOSアプリ開発初心者が各端末への画面サイ�
 2. `Main.storyboard`を開き、中央下部の`View as: iPhoneXX`を**iPhone SE**のサイズにします。
 3. `LaunchScreen.xib`ファイルを右クリックし、Deleteを選択して削除します。
 4. プロジェクトファイルの設定からLaunchScreenを削除します。
-![画像](http://imgur.com/DpME0go)
+
+![画像](http://i.imgur.com/DpME0go.gif)
+
 5. StoryboardHelperをXcodeの左側のフォルダ部分にドラッグ&ドロップでコピーします。
 6. そのとき、Destinationにチェックが入っていること、Refereneの選択が上の方を選んでいること、Targetにチェックが入っていることに気をつけましょう。
 7. この時点でiPhone5/5S/6/6Plus/6s/6sPlus/7/7Plusへの対応は完了です。
